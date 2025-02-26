@@ -1,0 +1,14 @@
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\bin\Debug\net8.0\HW1_Calculator.exe
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\bin\Debug\net8.0\HW1_Calculator.deps.json
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\bin\Debug\net8.0\HW1_Calculator.runtimeconfig.json
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\bin\Debug\net8.0\HW1_Calculator.dll
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\bin\Debug\net8.0\HW1_Calculator.pdb
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.AssemblyInfoInputs.cache
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.AssemblyInfo.cs
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.csproj.CoreCompileInputs.cache
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.dll
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\refint\HW1_Calculator.dll
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.pdb
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\HW1_Calculator.genruntimeconfig.cache
+D:\Hillel_C#_HWs\HW1_Calculator\HW1_Calculator\obj\Debug\net8.0\ref\HW1_Calculator.dll
