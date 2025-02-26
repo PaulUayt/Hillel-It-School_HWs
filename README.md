@@ -1,6 +1,6 @@
 <h1>HW1_Calculator</h1>
 
-**HW1_Calculator** - calculator numbers A and B, which contains the next operations: <br>
+**HW1_Calculator** - calculator numbers A and B realized on **C#**, which contains the next operations: <br>
     1. Add. <br>
     2. Subtract. <br>
     3. Multiply. <br>
