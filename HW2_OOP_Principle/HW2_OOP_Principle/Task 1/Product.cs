@@ -8,8 +8,6 @@
             base(integralPartAmount, fractionalPartAmount)
         {
             this.productName = productName;
-            IntegralPartAmount = integralPartAmount;
-            FractionalPartAmount = fractionalPartAmount;
         }
         public string ProductName
         {
