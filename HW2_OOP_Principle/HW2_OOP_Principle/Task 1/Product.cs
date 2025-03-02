@@ -4,7 +4,7 @@
     {
         private string productName;
 
-        public Product(string productName, decimal integralPartAmount, decimal fractionalPartAmount) : 
+        public Product(string productName, int integralPartAmount, int fractionalPartAmount) : 
             base(integralPartAmount, fractionalPartAmount)
         {
             this.productName = productName;
@@ -26,14 +26,14 @@
                 throw new ArgumentOutOfRangeException("Amount is not enough");
             }
             decimal newAmount = currentAmount - amount;
-            IntegralPartAmount = Math.Floor(newAmount);
-            FractionalPartAmount = newAmount - Math.Floor(newAmount);
+            IntegralPartAmount = (int)newAmount;
+            FractionalPartAmount = (int)((newAmount - IntegralPartAmount)*100);
         }
 
         public void ShowProduct()
         {
             Console.WriteLine("Product: " + productName);
-            ShowAmount();
+            ShowPrice();
         }
     }
 }

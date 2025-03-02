@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|d:\\hillel_c#_hws\\hw2_oop_principle\\hw2_oop_principle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|solutionrelative:hw2_oop_principle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|d:\\hillel_c#_hws\\hw2_oop_principle\\hw2_oop_principle\\task 1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|solutionrelative:hw2_oop_principle\\task 1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|d:\\hillel_c#_hws\\hw2_oop_principle\\hw2_oop_principle\\task 1\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|solutionrelative:hw2_oop_principle\\task 1\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|d:\\hillel_c#_hws\\hw2_oop_principle\\hw2_oop_principle\\task 2\\musicalinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB12026-946E-49BB-A0B8-0B52558F5F23}|HW2_OOP_Principle\\HW2_OOP_Principle.csproj|solutionrelative:hw2_oop_principle\\task 2\\musicalinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Task 1\\Product.cs",
+              "RelativeDocumentMoniker": "HW2_OOP_Principle\\Task 1\\Product.cs",
+              "ToolTip": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Task 1\\Product.cs",
+              "RelativeToolTip": "HW2_OOP_Principle\\Task 1\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T22:54:09.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MusicalInstrument.cs",
+              "DocumentMoniker": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Task 2\\MusicalInstrument.cs",
+              "RelativeDocumentMoniker": "HW2_OOP_Principle\\Task 2\\MusicalInstrument.cs",
+              "ToolTip": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Task 2\\MusicalInstrument.cs",
+              "RelativeToolTip": "HW2_OOP_Principle\\Task 2\\MusicalInstrument.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T22:45:59.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Money.cs",
+              "DocumentMoniker": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Task 1\\Money.cs",
+              "RelativeDocumentMoniker": "HW2_OOP_Principle\\Task 1\\Money.cs",
+              "ToolTip": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Task 1\\Money.cs",
+              "RelativeToolTip": "HW2_OOP_Principle\\Task 1\\Money.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T22:36:23.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Program.cs",
+              "RelativeDocumentMoniker": "HW2_OOP_Principle\\Program.cs",
+              "ToolTip": "D:\\Hillel_C#_HWs\\HW2_OOP_Principle\\HW2_OOP_Principle\\Program.cs",
+              "RelativeToolTip": "HW2_OOP_Principle\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:04:27.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

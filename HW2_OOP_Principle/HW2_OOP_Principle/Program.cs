@@ -9,12 +9,12 @@ namespace HW2_OOP_Principle
             // ------------------------------------------------------------
             // Task 1: class Money and class Product
             // ------------------------------------------------------------
-            Product product1 = new Product("Iphone 7s", 10, 0.5m);
+            Product product1 = new Product("Iphone 7s", 10, 56);
             product1.ShowProduct();
 
             Console.WriteLine();
             product1.ProductName = "Iphone X";
-            product1.SetAmount(15, 0.8m);
+            product1.SetAmount(15, 99);
             product1.ShowProduct();
 
             Console.WriteLine();
@@ -22,19 +22,26 @@ namespace HW2_OOP_Principle
             product1.ShowProduct();
 
             Console.WriteLine();
-            Product product2 = new Product("Xiaomi", 5, 0.34567m);
+            Product product2 = new Product("Xiaomi", 5, 25);
             product2.ShowProduct();
 
             Console.WriteLine();
             product2.ProductName = "Xiaomi 10";
-            product2.DecreaseAmount(0.4567m);
+            product2.DecreaseAmount(4.5m);
             product2.ShowProduct();
 
             // Checking on exepction
-            //product2.SetAmount(6, 1.1m);
+            //product2.SetAmount(6, 101);
+            //product2.SetAmount(-3, 89);
 
             // ------------------------------------------------------------
             // Task 2: 
+            // ------------------------------------------------------------
+
+
+
+            // ------------------------------------------------------------
+            // Task 3: 
             // ------------------------------------------------------------
 
         }

@@ -2,34 +2,41 @@
 {
     public class Money
     {
-        private decimal integralPartAmount;
-        private decimal fractionalPartAmount;
+        private int integralPartAmount;
+        private int fractionalPartAmount;
 
         public Money()
         {
-            integralPartAmount = 0.0m;
-            fractionalPartAmount = 0.0m;
+            integralPartAmount = 0;
+            fractionalPartAmount = 0;
         }
-        public Money(decimal integralPartAmount, decimal fractionalPartAmount)
+        public Money(int integralPartAmount, int fractionalPartAmount)
         {
             this.integralPartAmount = integralPartAmount;
             this.fractionalPartAmount = fractionalPartAmount;
         }
 
-        public decimal IntegralPartAmount
+        public int IntegralPartAmount
         {
             get => integralPartAmount;
-            set { integralPartAmount = value; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("Integral part shouldn't be negative");
+                }
+                integralPartAmount = value;
+            }
         }
 
-        public decimal FractionalPartAmount
+        public int FractionalPartAmount
         {
             get => fractionalPartAmount; 
             set 
             { 
-                if (value < 0.0m || value >= 1.0m)
+                if (value < 0 || value > 99)
                 {
-                    throw new ArgumentOutOfRangeException("Fractional part must be in range [0, 1)");
+                    throw new ArgumentOutOfRangeException("Fractional part must be in range [0, 99]");
                 }
                 fractionalPartAmount = value; 
             }
@@ -37,15 +44,15 @@
 
         public decimal GetAmount()
         {
-            return integralPartAmount + fractionalPartAmount;
+            return integralPartAmount + fractionalPartAmount/100m;
         }
 
-        public void ShowAmount()
+        public void ShowPrice()
         {
-            Console.WriteLine("Amount: " + GetAmount());
+            Console.WriteLine($"Price: " + GetAmount());
         }
 
-        public void SetAmount(decimal integralPartAmount, decimal fractionalPartAmount)
+        public void SetAmount(int integralPartAmount, int fractionalPartAmount)
         {
             IntegralPartAmount = integralPartAmount;
             FractionalPartAmount = fractionalPartAmount;
