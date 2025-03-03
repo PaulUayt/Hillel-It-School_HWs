@@ -10,23 +10,58 @@
 
     class MusicalInstrument: IMusicalInstrument
     {
-        
-        
+        private string nameMusicalInstrument;
+        private string soundMusicalInstrument;
+        private string descMusicalInstrument;
+        private string historyMusicalInstrument;
+
+        public MusicalInstrument(string nameMusicalInstrument, string soundMusicalInstrument, string descMusicalInstrument, string historyMusicalInstrument)
+        {
+            this.nameMusicalInstrument = nameMusicalInstrument;
+            this.soundMusicalInstrument = soundMusicalInstrument;
+            this.descMusicalInstrument = descMusicalInstrument;
+            this.historyMusicalInstrument = historyMusicalInstrument;
+        }
+
+        public string NameMusicalInstrument
+        {
+            get => nameMusicalInstrument;
+            set { nameMusicalInstrument = value; }
+        }
+
+        public string SoundMusicalInstrument
+        {
+            get => soundMusicalInstrument;
+            set { soundMusicalInstrument = value; }
+        }
+
+        public string DescMusicalInstrument
+        {
+            get => descMusicalInstrument;
+            set { descMusicalInstrument = value; }
+        }
+
+        public string HistoryMusicalInstrument
+        {
+            get => historyMusicalInstrument;
+            set { historyMusicalInstrument = value; }
+        }
+
         public void Sound()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine(soundMusicalInstrument);
         }
         public void Show()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine(nameMusicalInstrument);
         }
         public void Desc()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine(descMusicalInstrument);
         }
         public void History()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine(historyMusicalInstrument);
         }
     }
 }
