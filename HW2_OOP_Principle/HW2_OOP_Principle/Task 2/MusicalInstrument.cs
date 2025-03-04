@@ -15,7 +15,8 @@
         private string descMusicalInstrument;
         private string historyMusicalInstrument;
 
-        public MusicalInstrument(string nameMusicalInstrument, string soundMusicalInstrument, string descMusicalInstrument, string historyMusicalInstrument)
+        public MusicalInstrument(string nameMusicalInstrument, string soundMusicalInstrument, 
+            string descMusicalInstrument, string historyMusicalInstrument)
         {
             this.nameMusicalInstrument = nameMusicalInstrument;
             this.soundMusicalInstrument = soundMusicalInstrument;
@@ -47,21 +48,9 @@
             set { historyMusicalInstrument = value; }
         }
 
-        public void Sound()
-        {
-            Console.WriteLine(soundMusicalInstrument);
-        }
-        public void Show()
-        {
-            Console.WriteLine(nameMusicalInstrument);
-        }
-        public void Desc()
-        {
-            Console.WriteLine(descMusicalInstrument);
-        }
-        public void History()
-        {
-            Console.WriteLine(historyMusicalInstrument);
-        }
+        public void Sound() => Console.WriteLine(soundMusicalInstrument);
+        public void Show() => Console.WriteLine(nameMusicalInstrument);
+        public void Desc() => Console.WriteLine(descMusicalInstrument);
+        public void History() => Console.WriteLine(historyMusicalInstrument);
     }
 }

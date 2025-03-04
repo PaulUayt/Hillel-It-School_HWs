@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HW2_OOP_Principle.Task_2.Musical_Instruments
+﻿namespace HW2_OOP_Principle.Task_2.Musical_Instruments
 {
     class Ukulele : MusicalInstrument
     {

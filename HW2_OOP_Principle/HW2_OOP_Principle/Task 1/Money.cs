@@ -1,20 +1,15 @@
 ﻿namespace HW2_OOP_Principle.Task_1
 {
-    public class Money
+    public class Money(int integralPartAmount, int fractionalPartAmount)
     {
-        private int integralPartAmount;
-        private int fractionalPartAmount;
+        //private int integralPartAmount = 0;
+        //private int fractionalPartAmount = 0;
 
-        public Money()
-        {
-            integralPartAmount = 0;
-            fractionalPartAmount = 0;
-        }
-        public Money(int integralPartAmount, int fractionalPartAmount)
-        {
-            this.integralPartAmount = integralPartAmount;
-            this.fractionalPartAmount = fractionalPartAmount;
-        }
+        //public Money(int integralPartAmount, int fractionalPartAmount)
+        //{
+        //    this.integralPartAmount = integralPartAmount;
+        //    this.fractionalPartAmount = fractionalPartAmount;
+        //}
 
         public int IntegralPartAmount
         {
@@ -42,16 +37,8 @@
             }
         }
 
-        public decimal GetAmount()
-        {
-            return integralPartAmount + fractionalPartAmount/100m;
-        }
-
-        public void ShowPrice()
-        {
-            Console.WriteLine($"Price: " + GetAmount());
-        }
-
+        public decimal GetAmount() => integralPartAmount + fractionalPartAmount / 100m;
+        public void ShowPrice() => Console.WriteLine($"Price: " + GetAmount());
         public void SetAmount(int integralPartAmount, int fractionalPartAmount)
         {
             IntegralPartAmount = integralPartAmount;
