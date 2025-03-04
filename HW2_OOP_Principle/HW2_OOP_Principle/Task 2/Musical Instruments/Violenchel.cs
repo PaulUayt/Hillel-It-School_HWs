@@ -15,9 +15,9 @@
             this.bow = bow;
         }
 
-        public string Size { get => size; set { size = value; } }
-        public string Material { get => material; set { material = value; } }
-        public string Bow { get => bow; set { bow = value; } }
+        public string Size { get; set; }
+        public string Material { get; set; }
+        public string Bow { get; set; }
 
         public void ShowInfoViolenchel()
         {

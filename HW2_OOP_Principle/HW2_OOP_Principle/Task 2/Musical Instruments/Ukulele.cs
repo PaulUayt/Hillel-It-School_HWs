@@ -13,9 +13,9 @@
             this.numStrings = numStrings;
             this.material = material;
         }
-        public string Size { get => size; set { size = value; } }
-        public string NumStrings { get => numStrings; set { numStrings = value; } }
-        public string Material { get => material; set { material = value; } }
+        public string Size { get; set; }
+        public string NumStrings { get; set; }
+        public string Material { get; set; }
 
         public void ShowInfoUkulele()
         {

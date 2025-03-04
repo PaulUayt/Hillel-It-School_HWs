@@ -9,13 +9,7 @@
         {
             this.productName = productName;
         }
-        public string ProductName
-        {
-            get => productName;
-            set { productName = value; }
-
-        }
-
+        public string ProductName { get; set; }
         public void DecreaseAmount(decimal amount)
         {
             decimal currentAmount = GetAmount();

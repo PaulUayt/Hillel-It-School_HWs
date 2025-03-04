@@ -15,9 +15,9 @@
             this.diameter = diameter;
         }
 
-        public string Material { get => material; set { material = value; } }
-        public string Length { get => length; set { length = value; } }
-        public string Diameter { get => diameter; set { diameter = value; } }
+        public string Material { get; set; }
+        public string Length { get; set; }
+        public string Diameter { get; set; }
 
         public void ShowInfoTrombon()
         {

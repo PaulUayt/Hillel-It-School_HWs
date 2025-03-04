@@ -24,29 +24,11 @@
             this.historyMusicalInstrument = historyMusicalInstrument;
         }
 
-        public string NameMusicalInstrument
-        {
-            get => nameMusicalInstrument;
-            set { nameMusicalInstrument = value; }
-        }
+        public string NameMusicalInstrument { get; set; }
+        public string SoundMusicalInstrument { get; set;}
+        public string DescMusicalInstrument { get; set; }
+        public string HistoryMusicalInstrument { get; set; }
 
-        public string SoundMusicalInstrument
-        {
-            get => soundMusicalInstrument;
-            set { soundMusicalInstrument = value; }
-        }
-
-        public string DescMusicalInstrument
-        {
-            get => descMusicalInstrument;
-            set { descMusicalInstrument = value; }
-        }
-
-        public string HistoryMusicalInstrument
-        {
-            get => historyMusicalInstrument;
-            set { historyMusicalInstrument = value; }
-        }
 
         public void Sound() => Console.WriteLine(soundMusicalInstrument);
         public void Show() => Console.WriteLine(nameMusicalInstrument);

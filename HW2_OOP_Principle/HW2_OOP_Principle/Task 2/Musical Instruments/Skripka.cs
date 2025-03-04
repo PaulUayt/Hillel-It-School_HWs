@@ -15,9 +15,9 @@
             this.material = material;
         }
 
-        public string Size { get => size; set { size = value; } }
-        public string Weight { get => weight; set { weight = value; } }
-        public string Material { get => material; set { material = value; } }
+        public string Size { get; set; }
+        public string Weight { get; set; }
+        public string Material { get; set; }
 
         public void ShowInfoSkripka()
         {
