@@ -1,0 +1,5 @@
+
+Shop: Fora, Address: Kyiv, pr.Beresteyskyi 101, Type: Food
+Shop: Eldorado, Address: Kyiv, pr.Beresteyskyi 300, Type: Electronics
+Shop: Fora, Address: Kyiv, pr.Beresteyskyi 101, Type: Food
+Shop: Eldorado, Address: Kyiv, pr.Beresteyskyi 300, Type: Electronics
