@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="display-4 mb-4">Welcome</h1>
+    <p class="lead">Choose a list to work with:</p>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Notes</h5>
+                    <p class="card-text">Manage your personal or work notes.</p>
+                    <a class="btn btn-primary" asp-controller="Note" asp-action="Index">Go to Notes</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Contacts</h5>
+                    <p class="card-text">View and manage your contact list.</p>
+                    <a class="btn btn-success" asp-controller="Contact" asp-action="Index">Go to Contacts</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
